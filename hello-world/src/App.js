@@ -10,9 +10,7 @@ import Message2 from './components/Message2';
 function App() {
   return (
     <div className="App">
-      <Message2 />
-      <Greet2 name="user1" /> 
-      <Greet2 name="user2" /> 
+      <Conter />
       {/*<Welcome />*/}
       { /*<Hi />*/}
     </div>
