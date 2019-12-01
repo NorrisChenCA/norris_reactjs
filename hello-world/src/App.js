@@ -6,10 +6,11 @@ import Welcome from './components/Welcome'
 import Hi from './components/Hi'
 import Greet2 from './components/Greet2'
 import Message from './components/Message';
+import Message2 from './components/Message2';
 function App() {
   return (
     <div className="App">
-      <Message />
+      <Message2 />
       <Greet2 name="user1" /> 
       <Greet2 name="user2" /> 
       {/*<Welcome />*/}
