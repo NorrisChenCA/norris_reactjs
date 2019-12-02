@@ -7,10 +7,11 @@ import Hi from './components/Hi'
 import Greet2 from './components/Greet2'
 import Message from './components/Message';
 import Message2 from './components/Message2';
+import Greet3 from './components/Greet3';
 function App() {
   return (
     <div className="App">
-      <Conter />
+      <Greet3 name = "Stark" otherName = "Stank" />
       {/*<Welcome />*/}
       { /*<Hi />*/}
     </div>
