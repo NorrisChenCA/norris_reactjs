@@ -8,10 +8,12 @@ import Greet2 from './components/Greet2'
 import Message from './components/Message';
 import Message2 from './components/Message2';
 import Greet3 from './components/Greet3';
+import FunctionClick from './components/FunctionClick';
 function App() {
   return (
     <div className="App">
-      <Greet3 name = "Stark" otherName = "Stank" />
+      <FunctionClick />
+      {/*<Greet3 name = "Stark" otherName = "Stank" />*/}
       {/*<Welcome />*/}
       { /*<Hi />*/}
     </div>
