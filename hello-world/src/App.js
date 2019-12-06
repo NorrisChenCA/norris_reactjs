@@ -10,11 +10,11 @@ import Message2 from './components/Message2';
 import Greet3 from './components/Greet3';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
-import EventBind from './components/EventBind';
+import EventBind2 from './components/EventBind2';
 function App() {
   return (
     <div className="App">
-      <EventBind />
+      <EventBind2 />
       <FunctionClick />
       <ClassClick />
       {/*<Greet3 name = "Stark" otherName = "Stank" />*/}
