@@ -12,12 +12,11 @@ import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import EventBind2 from './components/EventBind2';
 import Parent from './components/Parent';
+import User from './components/User';
 function App() {
   return (
     <div className="App">
-      <EventBind2 />
-      <FunctionClick />
-      {/*<ClassClick />*/}
+      <User />
       <Parent />
       {/*<Greet3 name = "Stark" otherName = "Stank" />*/}
       {/*<Welcome />*/}

@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 
-function kid(){
+function Child(){
     return(
         <div>
             <button>Parent</button>
