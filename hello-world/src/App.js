@@ -11,17 +11,19 @@ import Greet3 from './components/Greet3';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import EventBind2 from './components/EventBind2';
+import Parent from './components/Parent';
 function App() {
   return (
     <div className="App">
       <EventBind2 />
       <FunctionClick />
-      <ClassClick />
+      {/*<ClassClick />*/}
+      <Parent />
       {/*<Greet3 name = "Stark" otherName = "Stank" />*/}
       {/*<Welcome />*/}
       { /*<Hi />*/}
     </div>
-  );
+  )
 }
 
 export default App;
