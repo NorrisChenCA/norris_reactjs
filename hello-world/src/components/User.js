@@ -9,21 +9,29 @@ class User extends Component{
     }
 
     render(){
-        if(this.state.isLoggedIn){
-            return(
-                <div>
-                    welcome Norris
-                </div>
-            )
-        }
-        else{
-            return(
-                <div>
-                    welcome guest
-                </div>
-            )
-        } 
+        return this.state.isLoggedIn ? (
+            <div>welcome Norris</div>
+        ) : (
+            <div>welcome guest</div>
+        )
     }
+
+    //render(){
+        //if(this.state.isLoggedIn){
+           // return(
+              //  <div>
+               //     welcome Norris
+              //  </div>
+         //   )
+       // }
+       // else{
+         //   return(
+         //       <div>
+           //         welcome guest
+          //      </div>
+         //   )
+       // } 
+   // }
 }
 
 export default User

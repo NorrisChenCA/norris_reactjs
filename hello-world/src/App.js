@@ -13,11 +13,13 @@ import ClassClick from './components/ClassClick';
 import EventBind2 from './components/EventBind2';
 import Parent from './components/Parent';
 import User from './components/User';
+import Namelist from './components/Namelist';
 function App() {
   return (
     <div className="App">
       <User />
       <Parent />
+      <Namelist />
       {/*<Greet3 name = "Stark" otherName = "Stank" />*/}
       {/*<Welcome />*/}
       { /*<Hi />*/}
