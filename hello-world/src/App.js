@@ -14,10 +14,12 @@ import EventBind2 from './components/EventBind2';
 import Parent from './components/Parent';
 import User from './components/User';
 import Namelist from './components/Namelist';
+import Namelist2 from './components/Namelist2';
 function App() {
   return (
     <div className="App">
       <User />
+      <Namelist2 />
       <Parent />
       <Namelist />
       {/*<Greet3 name = "Stark" otherName = "Stank" />*/}
