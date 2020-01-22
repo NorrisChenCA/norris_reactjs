@@ -1,33 +1,32 @@
 import React, { Component} from 'react'
 
-class Lifecycle extends Component {
+class Lifecycle2 extends Component {
     constructor(props){
         super(props)
         
         this.state = {
             name: 'Norris'
         }
-        console.log('Lifecycle constructor')
+        console.log('Lifecycle2 constructor')
     }
     
     static getDerivedStateFromProps(props,state){
-        console.log('Lifecycle getDerivedStateFromProps')
+        console.log('Lifecycle2 getDerivedStateFromProps')
         return null
     }
 
     componentDidMount(){
-        console.log('Lifecycle componentDidMount')
+        console.log('Lifecycle2 componentDidMount')
     }
 
     render(){
-        console.log('Lifecycle render')
+        console.log('Lifecycle2 render')
         return(
             <div>
-                <div>Lifecycle</div>
-                <Lifecycle2 />
+                Lifecycle2
             </div>
         )
     }
 }
 
-export default Lifecycle
+export default Lifecycle2
