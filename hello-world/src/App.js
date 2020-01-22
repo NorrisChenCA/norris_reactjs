@@ -15,13 +15,11 @@ import Parent from './components/Parent';
 import User from './components/User';
 import Namelist from './components/Namelist';
 import Namelist2 from './components/Namelist2';
+import Table from './components/Table';
 function App() {
   return (
     <div className="App">
-      <User />
-      <Namelist2 />
-      <Parent />
-      <Namelist />
+      <Table></Table>
       {/*<Greet3 name = "Stark" otherName = "Stank" />*/}
       {/*<Welcome />*/}
       { /*<Hi />*/}
