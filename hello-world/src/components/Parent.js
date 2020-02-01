@@ -1,5 +1,7 @@
 import React, { Component } from "react"
 import Child from "./Child"
+import ParentComp from "./ParentComp"
+import Memo from "./Memo"
 
 class Parent extends Component{
     constructor(props){
@@ -10,14 +12,20 @@ class Parent extends Component{
         this.greetParent = this.greetParent.bind(this)
     }
     
-    greetParent(){
-        alert(`Hello ${this.state.ParentName}`)
+    componentDidMount(){
+        setInterval(() => {
+            this.setState({
+                name: "norris"
+            })
+        }, 2000)
     }
     
     render(){
+        console.log('ParentComp')
         return(
             <div>
-                <Child />
+                Parent
+                <Memo name={this.state.name}/>
             </div>
         )
     }
