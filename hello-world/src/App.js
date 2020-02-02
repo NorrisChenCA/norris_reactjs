@@ -16,6 +16,7 @@ import User from './components/User';
 import Namelist from './components/Namelist';
 import Namelist2 from './components/Namelist2';
 import Table from './components/Table';
+import Refs from "'./components/Refs';"
 function App() {
   return (
     <div className="App">

@@ -6,10 +6,15 @@ class Refs extends Component {
         this.inputRef = React.createRef()
     }
 
+    componentDidMount(){
+        this.inputRef.current.fucus()
+        console.log(this.inputRef)
+    }
+
     render(){
         return(
             <div>
-                <input type="txt" />
+                <input type="txt" ref={this.inputRef}/>
             </div>
         )
     }
